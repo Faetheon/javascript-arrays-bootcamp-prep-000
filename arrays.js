@@ -33,7 +33,8 @@ function destructivelyRemoveElementFromEndOfArray(array) {
   array.splice(-1, 1);
   return array;
 }
-function destructivelyRemoveElementFromEndOfArray(array) {
-  array.splice(-1, 1);
-  return array;
+function removeElementFromEndOfArray(array) {
+  newArray = [...array];
+  newArray.splice(-1, 1);
+  return newArray;
 }

@@ -20,8 +20,8 @@ function destructivelyAddElementToEndOfArray(array, element) {
 function accessElementInArray(array, index) {
   return array[index];
 }
-function destructivelyAddElementToEndOfArray(array) {
-  const newArray = array;
-  array.shift(0);
-  return newArray;
-}
+// function destructivelyAddElementToEndOfArray(array) {
+//   const newArray = array;
+//   array.shift(0);
+//   return newArray;
+// }
